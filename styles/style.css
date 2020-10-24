@@ -1,0 +1,14 @@
+.test1:before {
+    display: inline-block;
+    content: url("./user1.png");
+}
+
+.test2:before {
+    display: inline-block;
+    content: url("./images/user1.png");
+}
+
+.test3:before {
+    display: inline-block;
+    content: url("../images/user1.png");
+}
