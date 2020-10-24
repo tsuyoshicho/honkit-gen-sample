@@ -55,11 +55,11 @@ jobs:
           wkhtmltopdf --version
 
           echo build
+          (npm run epub && echo "::set-output name=epub::$(ls *.epub)") || true
           echo PDF 1st try build
           npm run pdf                                                   || true
           echo PDF 2nd try build
           (npm run pdf  && echo "::set-output name=pdf::$(ls *.pdf)")   || true
-          (npm run epub && echo "::set-output name=epub::$(ls *.epub)") || true
 
       # Bump version on merging Pull Requests with specific labels.
       # (bump:major,bump:minor,bump:patch)
