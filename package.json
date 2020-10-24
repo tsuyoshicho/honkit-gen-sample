@@ -1,0 +1,33 @@
+{
+  "name": "honkit-gen-sample",
+  "version": "1.0.0",
+  "description": "HonKit generate sample",
+  "main": "",
+  "config": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" ",
+    "lint": "textlint README.md SUMMARY.md GLOSSARY.md doc/*",
+    "start": "honkit serve",
+    "build": "honkit build && rm -rf docs && cp -r _book docs",
+    "pdf": "honkit pdf  . output.pdf",
+    "epub": "honkit epub . output.epub"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsuyoshicho/honkit-gen-sample.git"
+  },
+  "keywords": [
+    "EPUB",
+    "PDF"
+  ],
+  "author": "Tsuyoshi CHO <Tsuyoshi.CHO@Gmail.com>",
+  "license": "CC-BY-NC-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/tsuyoshicho/honkit-gen-sample/issues"
+  },
+  "homepage": "https://github.com/tsuyoshicho/honkit-gen-sample#readme",
+  "devDependencies": {
+    "gitbook-plugin-uml": "^1.0.3",
+    "honkit": "^3.6.6"
+  }
+}

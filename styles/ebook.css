@@ -1,0 +1,21 @@
+body{
+  background-color: #FBF0D9;
+}
+
+.user1:before {
+    background-image: url("../images/user1.png");
+    background-size: 60px 60px;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    content:"";
+}
+
+.user1:before {
+    background-image: url("./images/user2.png");
+    background-size: 60px 60px;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    content:"";
+}
