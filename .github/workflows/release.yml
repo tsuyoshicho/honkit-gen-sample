@@ -55,6 +55,9 @@ jobs:
           wkhtmltopdf --version
 
           echo build
+          echo PDF 1st try build
+          npm run pdf                                                   || true
+          echo PDF 2nd try build
           (npm run pdf  && echo "::set-output name=pdf::$(ls *.pdf)")   || true
           (npm run epub && echo "::set-output name=epub::$(ls *.epub)") || true
 
