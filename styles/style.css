@@ -1,14 +1,4 @@
-.test1:before {
-    display: inline-block;
-    content: url("./img.png");
-}
-
-.test2:before {
-    display: inline-block;
-    content: url("./images/img.png");
-}
-
-.test3:before {
+.gm:before {
     display: inline-block;
     content: url("../images/img.png");
 }
