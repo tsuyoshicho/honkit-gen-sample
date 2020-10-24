@@ -2,14 +2,14 @@
 
 ## part1 img tags
 
-![gm](images/gm.png)
-gm, set `images/gm.png`
+![gm](../images/gm.png)
+gm, set `../images/gm.png`
 
-![user1](images/user1.png)
-user1, set `images/user1.png`
+![user1](../images/user1.png)
+user1, set `../images/user1.png`
 
 (skip img tag)
-user2, set `images/user2.png`
+user2, set `../images/user2.png`
 
 ## part2 css content(before)
 
