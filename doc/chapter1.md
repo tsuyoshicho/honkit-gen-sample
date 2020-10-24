@@ -1,29 +1,17 @@
 # image sample
 
-## part1
+## part1 img tags
 
-gm test1, set `./gm.png`
+![GM](./images/img.png) gm, set `./images/img.png`
 
-![GM](./gm.png)
+![1](./styles/img.png) 1, set `./styles/img.png`
 
-user1 test2, set `./images/user1.png`
+![2](./styles/images/img.png) 2, set `./styles/images/img.png`
 
-![User 1](./images/user1.png)
+## part2 css content(before)
 
-user2 test3, set `../images/user2.png`
+<p class="test1">test1 `./img.png`         </p>
 
-![User 2](../images/user2.png)
+<p class="test2">test2 `./images/img.png`  </p>
 
-## part2
-
-<p class="test1">
-gm test1, set `./gm.png`
-</p>
-
-<p class="test2">
-user1 test2, set `./images/user1.png`
-</p>
-
-<p class="test3">
-user2 test3, set `../images/user2.png`
-</p>
+<p class="test3">test3 `../images/img.png` </p>

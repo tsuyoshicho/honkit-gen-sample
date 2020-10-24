@@ -1,14 +1,14 @@
 .test1:before {
     display: inline-block;
-    content: url("./gm.png");
+    content: url("./img.png");
 }
 
 .test2:before {
     display: inline-block;
-    content: url("./images/user1.png");
+    content: url("./images/img.png");
 }
 
 .test3:before {
     display: inline-block;
-    content: url("../images/user2.png");
+    content: url("../images/img.png");
 }
