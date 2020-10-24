@@ -10,10 +10,10 @@ set `./images/user2.png`
 
 ## part2
 
-<p class="gm test1">
-gm test1
+<p class="user1">
+user1 test
 </p>
 
-<p class="gm test2">
-gm test2
+<p class="user2">
+user2 test
 </p>
