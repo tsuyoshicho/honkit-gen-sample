@@ -1,6 +1,5 @@
 GLOSSARY
 
-# User 1
+# no entry
 
-![User 1](images/user1.png)
-
+nothing
