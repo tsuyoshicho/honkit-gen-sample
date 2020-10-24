@@ -1,7 +1,7 @@
 {
-  "name": "TRPGEPUBTemplate",
+  "name": "honkit-gen-sample",
   "version": "1.0.0",
-  "description": "TRPG EPUB Template",
+  "description": "HonKit generate sample",
   "main": "",
   "config": {},
   "scripts": {
@@ -14,19 +14,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tsuyoshicho/TRPGEPUBTemplate.git"
+    "url": "git+https://github.com/tsuyoshicho/honkit-gen-sample.git"
   },
   "keywords": [
-    "TRPG",
     "EPUB",
-    "Replay"
+    "PDF"
   ],
   "author": "Tsuyoshi CHO <Tsuyoshi.CHO@Gmail.com>",
   "license": "CC-BY-NC-SA-4.0",
   "bugs": {
-    "url": "https://github.com/tsuyoshicho/TRPGEPUBTemplate/issues"
+    "url": "https://github.com/tsuyoshicho/honkit-gen-sample/issues"
   },
-  "homepage": "https://github.com/tsuyoshicho/TRPGEPUBTemplate#readme",
+  "homepage": "https://github.com/tsuyoshicho/honkit-gen-sample#readme",
   "devDependencies": {
     "@proofdict/textlint-rule-proofdict": "^3.1.1",
     "@textlint/textlint-plugin-markdown": "^5.2.6",
