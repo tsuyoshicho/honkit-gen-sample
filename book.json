@@ -4,20 +4,9 @@
   "author": "Tsuyoshi CHO",
   "language": "ja",
   "plugins": [
-    "creativecommons",
-    "styles-sass-fix",
-    "disqus",
     "uml"
    ],
    "pluginsConfig":{
-     "disqus": {
-       "shortName": "tsuyoshi-cho-gitbook"
-     },
-     "fontsettings":{
-       "theme":"sepia",
-       "family":"serif",
-       "size":2
-     },
      "uml": {
        "format": "svg",
        "nailgun": false
