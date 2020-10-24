@@ -19,6 +19,13 @@ jobs:
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
+
+      - name: Setup wkhtmltopdf
+        run: |
+          sudo apt-get update
+          sudo apt-get install xvfb libfontconfig wkhtmltopdf
+          wkhtmltopdf --version
+
       - name: Setup calibre
         run: |
           wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sh /dev/stdin install_dir=${GITHUB_WORKSPACE}/ isolated=y
