@@ -1,29 +1,14 @@
 .test1:before {
-    background-image: url("./user1.png");
-    background-color: #FBF0D9;
-    background-size: 60px 60px;
     display: inline-block;
-    width: 60px;
-    height: 60px;
-    content:"";
+    content: url("./user1.png");
 }
 
 .test2:before {
-    background-image: url("./images/user1.png");
-    background-color: #FBF0D9;
-    background-size: 60px 60px;
     display: inline-block;
-    width: 60px;
-    height: 60px;
-    content:"";
+    content: url("./images/user1.png");
 }
 
 .test3:before {
-    background-image: url("../images/user1.png");
-    background-color: #FBF0D9;
-    background-size: 60px 60px;
     display: inline-block;
-    width: 60px;
-    height: 60px;
-    content:"";
+    content: url("../images/user1.png");
 }
