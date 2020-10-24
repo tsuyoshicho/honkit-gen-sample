@@ -1,6 +1,6 @@
 .test1:before {
     display: inline-block;
-    content: url("./user1.png");
+    content: url("./gm.png");
 }
 
 .test2:before {
@@ -10,5 +10,5 @@
 
 .test3:before {
     display: inline-block;
-    content: url("../images/user1.png");
+    content: url("../images/user2.png");
 }
