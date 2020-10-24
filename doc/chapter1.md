@@ -2,7 +2,7 @@
 
 ## part1 img tags
 
-![GM](../images/img.png)
+(skip img tag)
 gm, set `../images/img.png`
 
 ## part2 css content(before)
