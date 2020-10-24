@@ -2,11 +2,11 @@
 
 ## part1 img tags
 
-![GM](./images/img.png) gm, set `./images/img.png`
+![GM](images/img.png) gm, set `images/img.png`
 
-![1](./styles/img.png) 1, set `./styles/img.png`
+![1](styles/img.png) 1, set `styles/img.png`
 
-![2](./styles/images/img.png) 2, set `./styles/images/img.png`
+![2](styles/images/img.png) 2, set `styles/images/img.png`
 
 ## part2 css content(before)
 
