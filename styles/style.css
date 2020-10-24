@@ -1,4 +1,9 @@
 .gm:before {
     display: inline-block;
-    content: url("../images/img.png");
+    content: url("../images/gm.png");
+}
+
+.user2:before {
+    display: inline-block;
+    content: url("../images/user2.png");
 }
