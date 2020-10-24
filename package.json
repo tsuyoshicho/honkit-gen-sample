@@ -1,0 +1,45 @@
+{
+  "name": "TRPGEPUBTemplate",
+  "version": "1.0.0",
+  "description": "TRPG EPUB Template",
+  "main": "",
+  "config": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" ",
+    "lint": "textlint README.md SUMMARY.md GLOSSARY.md doc/*",
+    "start": "honkit serve",
+    "build": "honkit build && rm -rf docs && cp -r _book docs",
+    "pdf": "honkit pdf  . output.pdf",
+    "epub": "honkit epub . output.epub"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsuyoshicho/TRPGEPUBTemplate.git"
+  },
+  "keywords": [
+    "TRPG",
+    "EPUB",
+    "Replay"
+  ],
+  "author": "Tsuyoshi CHO <Tsuyoshi.CHO@Gmail.com>",
+  "license": "CC-BY-NC-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/tsuyoshicho/TRPGEPUBTemplate/issues"
+  },
+  "homepage": "https://github.com/tsuyoshicho/TRPGEPUBTemplate#readme",
+  "devDependencies": {
+    "@proofdict/textlint-rule-proofdict": "^3.1.1",
+    "@textlint/textlint-plugin-markdown": "^5.2.6",
+    "gitbook-plugin-creativecommons": "^1.0.2",
+    "gitbook-plugin-disqus": "^1.0.1",
+    "gitbook-plugin-styles-sass-fix": "^1.1.2",
+    "gitbook-plugin-uml": "^1.0.3",
+    "honkit": "^3.6.6",
+    "textlint": "^11.7.6",
+    "textlint-rule-general-novel-style-ja": "^1.3.0",
+    "textlint-rule-preset-ja-spacing": "^2.0.2",
+    "textlint-rule-preset-ja-technical-writing": "^4.0.1",
+    "textlint-rule-preset-japanese": "^5.0.0",
+    "textlint-rule-prh": "^5.3.0"
+  }
+}
