@@ -13,8 +13,8 @@
      }
    },
    "styles":{
-     "website":"./styles/website.css",
-     "ebook":"./styles/ebook.css"
+     "website":"./styles/style.css",
+     "ebook":"./styles/style.css"
    },
    "pdf":{
      "pageNumbers":true,
