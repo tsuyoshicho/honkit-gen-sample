@@ -1,9 +1,6 @@
-body{
-  background-color: #FBF0D9;
-}
-
-.user1:before {
-    background-image: url("../images/user1.png");
+.test1:before {
+    background-image: url("./user1.png");
+    background-color: #FBF0D9;
     background-size: 60px 60px;
     display: inline-block;
     width: 60px;
@@ -11,8 +8,19 @@ body{
     content:"";
 }
 
-.user1:before {
-    background-image: url("./images/user2.png");
+.test2:before {
+    background-image: url("./images/user1.png");
+    background-color: #FBF0D9;
+    background-size: 60px 60px;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    content:"";
+}
+
+.test3:before {
+    background-image: url("../images/user1.png");
+    background-color: #FBF0D9;
     background-size: 60px 60px;
     display: inline-block;
     width: 60px;
