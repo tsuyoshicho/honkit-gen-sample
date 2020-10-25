@@ -55,11 +55,10 @@ jobs:
           wkhtmltopdf --version
 
           echo build
-          echo EPUB 1st try build
-          npm run epub                                                  || true
-          echo EPUB 2nd try build
-          (npm run epub && echo "::set-output name=epub::$(ls *.epub)") || true
+          # uml (gitbook-plugin-uml) plugin implement miss, need pre build for ebook generate.
+          npm run build
           (npm run pdf  && echo "::set-output name=pdf::$(ls *.pdf)")   || true
+          (npm run epub && echo "::set-output name=epub::$(ls *.epub)") || true
 
       # Bump version on merging Pull Requests with specific labels.
       # (bump:major,bump:minor,bump:patch)
