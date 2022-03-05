@@ -3,11 +3,10 @@
 <html lang="ja" >
     <head>
         <meta charset="UTF-8">
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <title>用語解説 · HonKit generate sample</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
-        <meta name="generator" content="HonKit 3.6.8">
+        <meta name="generator" content="HonKit 3.7.1">
         <meta name="author" content="Tsuyoshi CHO">
         
         
@@ -58,7 +57,7 @@
     </head>
     <body>
         
-<div class="book">
+<div class="book honkit-cloak">
     <div class="book-summary">
         
             
@@ -233,12 +232,56 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"用語解説","level":"1.5","depth":1,"previous":{"title":"機能サンプル/Markdown","level":"1.4","depth":1,"path":"doc/functionsample-md.md","ref":"doc/functionsample-md.md","articles":[]},"dir":"ltr"},"config":{"plugins":["uml"],"styles":{"website":"./styles/style.css","ebook":"./styles/style.css"},"pluginsConfig":{"uml":{"format":"svg","nailgun":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Tsuyoshi CHO","pdf":{"pageNumbers":true,"fontSize":9,"fontFamily":"IPAMincho","paperSize":"a6","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":8,"left":8,"top":26,"bottom":8},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"note":"ノート"},"title":"HonKit generate sample","language":"ja","gitbook":"*","description":"HonKit generate sample"},"file":{"path":"GLOSSARY.md","mtime":"2022-03-05T05:27:10.323Z","type":"markdown"},"gitbook":{"version":"3.6.8","time":"2022-03-05T05:28:04.308Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"用語解説","level":"1.5","depth":1,"previous":{"title":"機能サンプル/Markdown","level":"1.4","depth":1,"path":"doc/functionsample-md.md","ref":"doc/functionsample-md.md","articles":[]},"dir":"ltr"},"config":{"plugins":["uml"],"styles":{"website":"./styles/style.css","ebook":"./styles/style.css"},"pluginsConfig":{"uml":{"format":"svg","nailgun":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Tsuyoshi CHO","pdf":{"pageNumbers":true,"fontSize":9,"fontFamily":"IPAMincho","paperSize":"a6","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":8,"left":8,"top":26,"bottom":8},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"note":"ノート"},"title":"HonKit generate sample","language":"ja","gitbook":"*","description":"HonKit generate sample"},"file":{"path":"GLOSSARY.md","mtime":"2022-03-05T05:30:46.777Z","type":"markdown"},"gitbook":{"version":"3.7.1","time":"2022-03-05T05:31:37.560Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
 
         
+    <noscript>
+        <style>
+            .honkit-cloak {
+                display: block !important;
+            }
+        </style>
+    </noscript>
+    <script>
+        // Restore sidebar state as critical path for prevent layout shift
+        function __init__getSidebarState(defaultValue){
+            var baseKey = "";
+            var key = baseKey + ":sidebar";
+            try {
+                var value = localStorage[key];
+                if (value === undefined) {
+                    return defaultValue;
+                }
+                var parsed = JSON.parse(value);
+                return parsed == null ? defaultValue : parsed;
+            } catch (e) {
+                return defaultValue;
+            }
+        }
+        function __init__restoreLastSidebarState() {
+            var isMobile = window.matchMedia("(max-width: 600px)").matches;
+            if (isMobile) {
+                // Init last state if not mobile
+                return;
+            }
+            var sidebarState = __init__getSidebarState(true);
+            var book = document.querySelector(".book");
+            // Show sidebar if it enabled
+            if (sidebarState && book) {
+                book.classList.add("without-animation", "with-summary");
+            }
+        }
+
+        try {
+            __init__restoreLastSidebarState();
+        } finally {
+            var book = document.querySelector(".book");
+            book.classList.remove("honkit-cloak");
+        }
+    </script>
     <script src="gitbook/gitbook.js"></script>
     <script src="gitbook/theme.js"></script>
     
