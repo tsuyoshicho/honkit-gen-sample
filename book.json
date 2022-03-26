@@ -4,14 +4,15 @@
   "author": "Tsuyoshi CHO",
   "language": "ja",
   "plugins": [
-    "uml"
-   ],
-   "pluginsConfig":{
-     "uml": {
-       "format": "svg",
-       "nailgun": false
-     }
-   },
+    "@ansanloms/uml"
+  ],
+  "pluginsConfig":{
+    "uml": {
+      "format": "png",
+      "charset": "utf8",
+      "config": "classic"
+    }
+  },
    "styles":{
      "website":"./styles/style.css",
      "ebook":"./styles/style.css"
