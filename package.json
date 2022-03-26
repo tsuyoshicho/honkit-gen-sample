@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/tsuyoshicho/honkit-gen-sample#readme",
   "devDependencies": {
-    "gitbook-plugin-uml": "^1.2.12",
-    "honkit": "^3.7.1"
+    "honkit": "^3.7.1",
+    "@ansanloms/honkit-plugin-uml": "^0.0.8"
   }
 }
